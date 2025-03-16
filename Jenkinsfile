@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/tmvg04/PES1UG22CS664_Jenkins.git'
             }
         }
         stage('Build application') {
